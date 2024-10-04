@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <StartupObject>LoanerReader.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cake.Powershell" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Management.Infrastructure" Version="3.0.0" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Diagnostics" Version="7.4.2" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Management" Version="7.4.2" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Utility" Version="7.4.2" />
+    <PackageReference Include="Microsoft.PowerShell.ConsoleHost" Version="7.4.2" />
+    <PackageReference Include="Microsoft.WSMan.Management" Version="7.4.2" />
+    <PackageReference Include="Microsoft.WSMan.Runtime" Version="7.4.2" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+    <PackageReference Include="System.Management.Automation" Version="7.4.2" />
+  </ItemGroup>
+
+</Project>
